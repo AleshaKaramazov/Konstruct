@@ -1,0 +1,53 @@
+.header {
+    max-width: 1438px;
+    height: 769px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("/images/header.png");
+}
+
+.header__logo {
+    margin-top: 41px;
+}
+
+.header__main-info {
+    margin-top: 317px;
+    color: var(--text-white);
+    text-align: center;
+}
+
+h1 {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 60px;
+    letter-spacing: 0.1em;
+}
+
+.header__down-paragraph {
+    margin-top: 242px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.34em;
+    text-align: center;
+    color: var(--text-white);
+}
+
+.header__main-info-paragraph {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.g-logo {
+    width: 101px;
+    height: 23px;
+    display: flex;
+    position: relative;
+}
+
+.g-logo__triangle {
+    position: absolute;
+    left: 82px;
+}
